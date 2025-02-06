@@ -1,0 +1,9 @@
+:root {
+  --accent: green;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
