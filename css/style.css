@@ -16,9 +16,26 @@
 }
 
 :root {
+  /* Set sans-serif & mono fonts */
+  --sans-font: "Noto Sans TC";
+  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  --standard-border-radius: 5px;
+  
+  /* Default (light) theme */
   --accent: #573323;
   --code: #573323;
 }
+
+/* 
+ <weight>: Use a value from 100 to 900
+ <uniquifier>: Use a unique and descriptive class name
+*/
+.noto-sans-tc-400 {
+  font-family: "Noto Sans TC", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}  
 
 .logo {
   display: inline-flex;
@@ -27,9 +44,11 @@
   align-items: center;
   padding: 1em;
 }
+
 .to-right {
   text-align: right;
 }
+
 .to-center {
   text-align: center;
 }
