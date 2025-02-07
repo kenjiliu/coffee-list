@@ -4,20 +4,20 @@
 
 nav ul {
   display: flex;
-/*  list-style: none;*/
+  list-style: none;
 }
 
 nav li {
-/*  border: 0px solid pink;*/
+  border: 0px solid lightgrey;
   padding: 1em;
 }
 
 .links-list a {
   background-color: lightgrey;
-  color: grey;
-/*  text-decoration: none;
-  padding: 0.5em 1em;
-  display: inline-block;*/
+  /*color: grey;*/
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
 }
 
 .links-list a:hover {
