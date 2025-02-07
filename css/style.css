@@ -1,28 +1,28 @@
 :root {
-  --accent: green;
+  --accent: chocolate;
 }
 
 nav ul {
-  display: inline-flex;
-  list-style: none;
+  display: flex;
+/*  list-style: none;*/
 }
 
 nav li {
-  border: 0px solid pink;
-  padding: .5em;
+/*  border: 0px solid pink;*/
+  padding: 1em;
 }
 
 .links-list a {
-  background-color: rgb(179,57,81);
-  color: #fff;
-  text-decoration: none;
-  padding: 1em 3em;
-  display: inline-block;
+  background-color: lightgrey;
+  color: grey;
+/*  text-decoration: none;
+  padding: 0.5em 1em;
+  display: inline-block;*/
 }
 
 .links-list a:hover {
-  background-color: rgb(66, 28, 40);
-  color: #fff;
+  background-color: #F92672;
+  color: lightgrey;
 }
 
 .container {
