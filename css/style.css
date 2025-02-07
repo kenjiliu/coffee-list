@@ -1,7 +1,22 @@
 :root {
-  --accent: chocolate;
+  --accent: #FF6000;
+  --code: #FF6000;
 }
 
+.logo {
+  display: inline-flex;
+  column-gap: 1.5em;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+.to-right {
+  text-align: right;
+}
+.to-center {
+  text-align: center;
+}
+  
 nav ul {
   display: flex;
   list-style: none;
@@ -21,13 +36,13 @@ nav li {
 }
 
 .links-list a:hover {
-  background-color: #F92672;
+  background-color: #FF6000;
   color: lightgrey;
 }
 
 .container {
-	display: flex;
+/*	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center;*/
 }
 
