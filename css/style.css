@@ -1,6 +1,23 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light;
+    --bg: #fff;
+    --accent-bg: #f5f7ff;
+    --text: #212121;
+    --text-light: #585858;
+    --accent: #0d47a1;
+    --accent-hover: #1266e2;
+    --accent-text: var(--bg);
+    --code: #d81b60;
+    --preformatted: #444;
+    --marked: #ffdd33;
+    --disabled: #efefef;
+  }
+}
+
 :root {
-  --accent: #FF6000;
-  --code: #FF6000;
+  --accent: #573323;
+  --code: #573323;
 }
 
 .logo {
@@ -23,20 +40,21 @@ nav ul {
 }
 
 nav li {
-  border: 0px solid lightgrey;
-  padding: 1em;
+  border: 0px solid #E5E5E5;
+  padding: 0.1em;
 }
 
 .links-list a {
-  background-color: lightgrey;
-  /*color: grey;*/
+  background-color: #E5E5E5;
+  /*color: #FF6000;*/
   text-decoration: none;
   padding: 0.5em 2.5em;
   display: inline-block;
+  transition: all .3s linear;
 }
 
 .links-list a:hover {
-  background-color: #FF6000;
+  background-color: #573323;
   color: lightgrey;
 }
 
